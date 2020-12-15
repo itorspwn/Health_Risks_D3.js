@@ -1,25 +1,25 @@
+
 .aText {
   font-family: sans-serif;
   font-size: 16px;
   text-anchor: middle;
 }
-
 .active {
   font-weight: bold;
-  fill: #000;
+  fill: rgb(107, 57, 57);
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
 .inactive {
   font-weight: lighter;
-  fill: #c9c9c9;
+  fill: #b4b4b4;
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
 .inactive:hover {
-  fill: #000;
+  fill: rgba(133, 57, 57, 0.685);
   cursor: pointer;
 }
 
@@ -50,7 +50,11 @@
   text-transform: capitalize;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 4px;
+  text-anchor: middle;
 }
+
+
+
 
 /* Mobile Rules */
 @media screen and (max-width: 530px) {
